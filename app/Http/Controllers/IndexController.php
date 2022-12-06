@@ -16,5 +16,10 @@ class IndexController extends Controller
     public function top(){
         return view('top');
     }
+<<<<<<< HEAD
     //пиздееееец
+=======
+    //ertgmedsrfhgmsdojghesajngroieanhgioenhsbg
+    //ertgmedsrfhgmsdojghesajngroieanhgioenhsbg
+>>>>>>> a264a3919e5ab4b26edf31b3cd1dc67b83693f3a
 }
