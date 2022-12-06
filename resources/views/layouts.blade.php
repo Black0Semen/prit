@@ -28,6 +28,7 @@
     <div class="PersonDiv">
       <div class="users__content">
         <a href="">Закладки</a>
+        <a href="">Регистрация</a>
       </div>
       <div class="header__contents">
         <img class="header__logo" width="50" height="50" src={{asset('content/photo/ava.jpg')}}>
