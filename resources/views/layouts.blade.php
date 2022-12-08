@@ -30,11 +30,13 @@
         <a href="">Закладки</a>
         <a href="">Регистрация</a>
       </div>
-      <div class="header__contents">
-        <img class="header__logo" width="50" height="50" src={{asset('content/photo/ava.jpg')}}>
-        <div class="header__contacts">    
-
-        </div>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Главная</a>
+            <a href="#">О Нас</a>
+            <a href="#">Контакты</a>
+          </div>
       </div>
     </div>
   </div>
