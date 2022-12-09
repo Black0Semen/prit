@@ -29,21 +29,21 @@ color: #fff;
 /*-------------
 	Header
 --------------*/
-.dropbtn {
-  width: 48px;
-  height: 48px;
-  margin-left: 268px;
-  margin-top: -38px;
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.droppng {
+    width: 50px;
+    height: 50px;
+    margin-left: 268px;
+    margin-top: -54px;
+    background-color: #3a3a3a;
+    color: #765555;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+.droppng:hover, .droppng:focus {
+  background-color: #31383c;
 }
 
 .dropdown {

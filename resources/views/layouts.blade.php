@@ -31,7 +31,7 @@
         <a href="">Регистрация</a>
       </div>
       <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn"></button>
+        <img src="content/photo/logo.png" onclick="myFunction()" class="droppng">
           <div id="myDropdown" class="dropdown-content">
             <a href="#">Главная</a>
             <a href="#">О Нас</a>
