@@ -19,9 +19,9 @@
         </div>
       </div>
       <div class="header__web">
-          <a href="/">Контент</a>
-          <a href="/top">Топ</a>
-          <a href="/order">Заказ</a>
+          <a href="/public/">Контент</a>
+          <a href="/public/top">Топ</a>
+          <a href="/public/order">Заказ</a>
           <a href="">Поиск</a>
       </div>
     </div>
