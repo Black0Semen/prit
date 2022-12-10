@@ -36,19 +36,20 @@ p{
 	margin:5px 0px;
 }
 .texting{
-    display: block;
-    margin: 14px 0px;
-    BACKGROUND: #c3c4bd;
-    width: 200px;
+  display: block;
+  margin: 18px 0px;
+  BACKGROUND: #c3c4bd;
+  width: 200px;
 }
 #infodown{
 	margin-top:227px;
 }
 .redown{
-	margin-top:1%;
+  margin-top: 10%;
 }
 .upside{
-	margin-top:0px;
+  margin-top: 0px;
+  margin-bottom: 7%;
 }
 .downside{
 	margin-bottom:10px;

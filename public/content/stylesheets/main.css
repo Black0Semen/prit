@@ -53,7 +53,7 @@ color: #fff;
 
 .dropdown-content {
   margin-left: 56%;
-  margin-top: 0%;
+  margin-top: -4%;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -124,7 +124,7 @@ color: #fff;
   .users__content{
     positioN: relative;
     width: auto;
-    margin-top: 5%;
+    margin-top: 2%;
   }
   .header__contents{
     position: relative;
