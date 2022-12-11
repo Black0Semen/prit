@@ -22,7 +22,7 @@
           <a href="/">Контент</a>
           <a href="/top">Топ</a>
           <a href="/order">Заказ</a>
-          <a href="">Поиск</a>
+          <a href="/search">Поиск</a>
       </div>
     </div>
     <div class="PersonDiv">

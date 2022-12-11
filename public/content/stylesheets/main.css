@@ -121,6 +121,12 @@ color: #fff;
     margin-top: -8%;
     margin-left: 10%;
   }
+
+  .header__web a:hover {
+    padding: 5px;
+    background: rgba(0,0,0,.2);
+  }
+
   .users__content{
     positioN: relative;
     width: auto;
@@ -271,6 +277,27 @@ color: #fff;
    0 1px rgba(255,255,255,.08);
   color: rgb(230, 194, 96);
 }
+
+
+
+/* ---------------
+  Search styles
+----------------*/
+.search_main{
+  margin-top: 6%;
+  margin-bottom: 1%;
+  margin-left: 6%;
+  margin-right: 0%;
+  padding-left: 30%;
+  flex: 1 0 auto;
+  width: auto;
+  background-color: #4a4a4a;
+  color: #fff;
+}
+.search_main input{
+  width: 260px;
+}
+
 /*--------------------
 	Footer styles
 --------------------*/
