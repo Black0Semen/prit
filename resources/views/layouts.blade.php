@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <!-- Set the viewport width to device width for mobile -->
+    <!-- Set the viewport width to device width for mobilebhhhhhhhhhhhhhhhhhhhhhh -->
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href={{asset('content\stylesheets\main.css')}}>
     <link rel="stylesheet" href="{{asset('content\stylesheets\dannye.css')}}"
