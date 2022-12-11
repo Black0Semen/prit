@@ -1,4 +1,4 @@
-.osnova{
+.Dialog{
     display: grid;
     grid-template-columns: repeat(2,200px);
     width: 400px;
@@ -9,51 +9,22 @@
     padding: 10px;
     border: 3px solid #a9a1a1;
 }
-#send{
-	grid-column:span 2;
-}
-#aligned1, #aligned2{
-	display:inline-block;
-	background:white;
-	border:1px solid gainsboro;
-	border-radius:3px;
-	width:100px;
-	height:30px;
-	margin:10px 0px 0px 150px;
-}
-#aligned1:disabled, #aligned2:disabled{
-	background:silver;
-	color:white;
-}
 p{
 	font-family:sans-serif;
 }
-.info{
-	display:inline-block;
-	margin:5px 0px;
+.str2{
+    font-family: sans-serif;
+    margin-top: -17px;
 }
-.texting{
-  display: block;
-  margin: 18px 0px;
-  BACKGROUND: #c3c4bd;
-  width: 200px;
+.str{
+    font-family: sans-serif;
+    width: 180%;
+    margin-left: 10px;
 }
-#infodown{
-	margin-top:227px;
-}
-.redown{
-  margin-top: 10%;
-}
-.upside{
-  margin-top: 0px;
-  margin-bottom: 7%;
-}
-.downside{
-	margin-bottom:10px;
-}
-.Button_Vib_order {
+.Button_Vib{
     display: inline-block;
-    margin-left: 75%;
+    margin-left: 57%;
+    margin-top: 9px;
     width: 100px;
     height: 50px;
     line-height: 50px;
@@ -69,11 +40,11 @@ p{
     color: rgb(255 255 255);
     user-select: none;
 }
-  .Button_Vib_order:hover {
+  .Button_Vib:hover {
 	color: rgb(0,59,66);
 	cursor: pointer;
   }
-  .Button_Vib_order:active {
+  .Button_Vib:active {
 	padding-bottom: 1px;
 	box-shadow:
 	 inset rgba(0,0,0,1) 0 1px 3px,
@@ -81,4 +52,39 @@ p{
 	 inset rgba(252,255,255,.7) 0 2px 5px,
 	 0 1px rgba(255,255,255,.08);
 	color: rgb(230, 194, 96);
+  }
+  .Input{
+    display: block;
+    /* margin: 18px 0px; */
+    BACKGROUND: #c3c4bd;
+    width: 200px;
+  }
+  .Derj{
+    width: 151%;
+    margin-left: 5px;
+  }
+  .jform{
+    margin-left: -33px;
+  }
+  .Osn{
+    margin-left: 55%;
+  }
+  .str3{
+    width: 163px;
+    margin-left: 16px;
+    font-size: 20px;
+    margin-top: -2px;
+    margin-bottom: 24px;
+  }
+  .ssilka1{
+    margin-left: 8px;
+    color: #fffd95;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 21px;
+  }
+  .Otstup{
+    padding: 6px;
+    margin-top: -3px;
+    margin-left: 10px;
   }

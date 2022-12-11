@@ -4,7 +4,9 @@
     <!-- Set the viewport width to device width for mobilebhhhhhhhhhhhhhhhhhhhhhh -->
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href={{asset('content\stylesheets\main.css')}}>
-    <link rel="stylesheet" href="{{asset('content\stylesheets\dannye.css')}}"
+    <link rel="stylesheet" href="{{asset('content\stylesheets\dannye.css')}}">
+    <link rel="stylesheet" href="{{asset('content\stylesheets\auth.css')}}">
+    <link rel="stylesheet" href="{{asset('content\stylesheets\registr.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src={{asset('content\javascript\main.js')}}></script>
   </head>
@@ -28,7 +30,7 @@
     <div class="PersonDiv">
       <div class="users__content">
         <a href="">Закладки</a>
-        <a href="">Регистрация</a>
+        <a href="/public/Auto/Registr">Регистрация</a>
       </div>
       <div class="dropdown">
         <img src="content/photo/logo.png" onclick="myFunction()" class="droppng">

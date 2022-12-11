@@ -16,5 +16,11 @@ class IndexController extends Controller
     public function top(){
         return view('top');
     }
+    public function Registr(){
+        return view('Registr');
+    }
+    public function Auth(){
+        return view('Auth');
+    }
     //konpni'ihm',mmjhg8ygk
 }
