@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Comic;
+use App\Models\Team;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
@@ -23,9 +24,10 @@ class IndexController extends Controller
     }
     public function findSomeThing(Request $request){
         $input = $request->title;
-        $sql = Comic::WHERE("title","=",$input)->get();
+        $comics = Comic::WHERE("title","=",$input)->get();
+        $teams = Team::WHERE("title", "=", $input)->get();
         
-        return view('search', ['answer'=>$sql]);
+        return view('search', ['answer'=>$comics, 'teams'=>$teams]);
     }
     //konpni'ihm',mmjhg8ygk
 }

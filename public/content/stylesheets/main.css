@@ -118,15 +118,9 @@ color: #fff;
   .header__web{
     position: relative;
     margin-right: 10%;
-    margin-top: -8%;
+    margin-top: -7%;
     margin-left: 10%;
   }
-
-  .header__web a:hover {
-    padding: 5px;
-    background: rgba(0,0,0,.2);
-  }
-
   .users__content{
     positioN: relative;
     width: auto;
@@ -284,18 +278,18 @@ color: #fff;
   Search styles
 ----------------*/
 .search_main{
-  margin-top: 6%;
-  margin-bottom: 1%;
-  margin-left: 6%;
-  margin-right: 0%;
-  padding-left: 30%;
+  margin: 6%;
   flex: 1 0 auto;
   width: auto;
   background-color: #4a4a4a;
   color: #fff;
+  text-align: center;
 }
 .search_main input{
   width: 260px;
+}
+fieldset{
+  border-radius: 10px;
 }
 
 /*--------------------

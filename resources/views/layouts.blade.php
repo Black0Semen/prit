@@ -22,7 +22,7 @@
           <a href="/">Контент</a>
           <a href="/top">Топ</a>
           <a href="/order">Заказ</a>
-          <a href="/search">Поиск</a>
+          <a href="/search">Поиск</a><img width="20" src={{asset('content/photo/search.png')}}>
       </div>
     </div>
     <div class="PersonDiv">
@@ -33,7 +33,7 @@
       <div class="dropdown">
         <img src="content/photo/logo.png" onclick="myFunction()" class="droppng">
           <div id="myDropdown" class="dropdown-content">
-            <a href="#">Главная</a>
+            <a href="/user/">Профиль</a>
             <a href="#">О Нас</a>
             <a href="#">Контакты</a>
           </div>
