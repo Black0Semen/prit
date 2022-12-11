@@ -16,5 +16,6 @@ class IndexController extends Controller
     public function top(){
         return view('top');
     }
+    // ЕБАНАЯ ХУЙНЯ ЭТОТ ВАШ ГИТХАБ Я ТОГО РОТ ЕБАЛ
     //konpni'ihm',mmjhg8ygk
 }
